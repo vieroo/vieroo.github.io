@@ -20,3 +20,8 @@ main {
     background-color: #ffffff;
     height: 900px;
 }
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
