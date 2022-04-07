@@ -1,36 +1,97 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans&display=swap');
 
 body {
-    margin: 0;
+    margin: 0 auto 0 auto;
 }
 
 .container {
     display: flex;
-    margin: 0;
+    justify-content: center;
 }
 
 aside {
     display: flex;
     flex-direction: column;
-    flex: 3;
+    width: 20%;
     justify-content: space-around;
     background-color: #2c2c2c;
-    height: 900px;
-    margin-left: 150px;
+    height: 1000px;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 main {
-    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
     background-color: #ffffff;
-    height: 900px;
-    margin-right: 150px;
+    height: 1000px;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 220px;
     border-radius: 50%;
     border: 4px solid #d800ff;
+}
+
+aside h3 {
+    color: #d800ff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.contato p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.competencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.competencias p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.experiencia p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
